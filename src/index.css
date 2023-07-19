@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ships-data{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.card{
+  width: 370px;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h3 {
+  color:red;
+  margin-left:10px;
+}
